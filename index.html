@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <form action="http://localhost/pemrogramanweb/proses.php" method="post">
-     
+<body><h2>
+    <form action="http://localhost/pemrogramanweb/proses.php" method="get">
+        Bilangan 1 <input type="text" name = "bilangan1"><br>
+        Bilangan 2 <input type="text" name = "bilangan2"><br>
+        Operator : &nbsp<select name="operator" id="">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">x</option>
+            <option value="4">:</option>
+        </select><br>
+        <input type="submit" value="Kirim">
     </form>
+</h2>
 </body>
 </html>
